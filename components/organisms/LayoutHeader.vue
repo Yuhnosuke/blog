@@ -29,6 +29,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+    .header {
+        background-color: #f9f9f9;
+    }
     .header__container {
         display: flex;
         flex-direction: row;

@@ -25,6 +25,7 @@ export default Vue.extend({
         position: absolute;
         width: 100%;
         bottom: 0;
+        background-color: #f9f9f9;
     }
 
     .footer__legal-message {
