@@ -2,16 +2,19 @@
     <div class="container">
         <LayoutHeader />
         <Nuxt />
+        <LayoutFooter />
     </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
 import LayoutHeader from '../components/organisms/LayoutHeader.vue';
+import LayoutFooter from '../components/organisms/LayoutFooter.vue';
 
 export default Vue.extend({
     components: {
         LayoutHeader,
+        LayoutFooter,
     }
 })
 </script>
