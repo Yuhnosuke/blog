@@ -24,7 +24,7 @@ export default Vue.extend({
         padding: 0;
         margin: 0;
         font-family: sans-serif;
-        background-color: #f9f9f9;
+        background-color: #fff;
     }
     
 </style>
