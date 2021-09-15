@@ -36,6 +36,11 @@ export default Vue.extend({
         width: 960px;
         margin: 0 auto;
     }
+    @media screen and (max-width: 480px) {
+        .header__container {
+            width: 360px;
+        }
+    }
     
     .header__title {
         
