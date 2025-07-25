@@ -1,0 +1,65 @@
+baseURL = "https://blog.ynsk.im/"
+title = "Bit by Bit"
+theme = "PaperMod"
+languageCode = "ja"
+pagerSize = 5
+googleAnalytics = "G-C150CDJDWG"
+enableRobotsTXT = true
+
+[params]
+env = "production"
+description = "A technical blog that grows ideas through code, thought, and curiosity, from Bits to Wits."
+author = "Yuhnosuk Hashimoto"
+hideAuthor = true
+keywords = ["Tech", "Programming", "Software Engineering"]
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowWordCount = false
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowShareButtons = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+comments = false
+math = true
+
+[params.homeInfoParams]
+Title = "Bit by Bit"
+Content = "A technical blog that grows ideas through code, thought, and curiosity, from Bits to Wits."
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+safari_pinned_tab = "/safari-pinned-tab.svg"
+
+[params.label]
+text = "Home"
+icon = "/apple-touch-icon.png"
+iconHeight = 32
+
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Yuhnosuke"
+
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/YuhnosukeHashi"
+
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
