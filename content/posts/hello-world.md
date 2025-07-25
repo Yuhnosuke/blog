@@ -1,6 +1,6 @@
 +++
 date = '2025-07-25T10:29:46+09:00'
-draft = true
+draft = false
 title = 'Hello, World'
 summary = 'このブログを始めた理由とBit by Bitという名前に込めた思いについて'
 tags = ["挨拶"]
